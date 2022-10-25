@@ -1,0 +1,340 @@
+
+.body
+{
+    background-color: #F5ee31;
+    width: 30rem;
+    height:40rem;
+    border: 0.5rem solid #000;
+    position: relative;
+    margin: 5rem auto;
+    overflow:hidden;
+}
+/*OJOS*/
+.ojos
+{
+    position:absolute;
+    left: 4rem;
+    top: 4rem;
+    width: 21rem;
+    z-index: 10; 
+}
+
+.ojo
+{
+    background-color: white;
+    position: relative;
+    border:0.5rem solid #000;
+    width: 10rem;
+    height: 10rem;
+    margin-right:-1.7rem;
+    display: inline-block;    
+    border-radius: 50%;
+}
+.ojo_esterno
+{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border:3px solid #000;
+    background-color: #00AEEF;
+    position: absolute;
+    top:40px;
+    left: 40px;
+}
+.ojo_interno
+{
+    width: 3rem;
+    height:3rem;
+    border-radius: 50%;
+    background-color: #000;
+    position:absolute;
+    top: 17px;
+    left: 17px;
+}
+
+.pestañas
+{
+    position: relative;
+    bottom: 1.8rem;
+    left: 1.2rem;
+}
+.pestaña
+{
+    width: 1.5rem;
+    height: 0.5rem;
+    background-color: #000;
+    display: inline-block;
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.pestaña.primera
+{
+    position: relative;
+    top: 0.8rem;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.pestaña.segunda
+{
+    position: relative;
+    top: 0.2rem;
+    left: 1.25rem;
+
+}
+.pestaña.tercera
+{
+    position: relative; 
+    top: 0.8rem;
+    left: 2.3rem;
+    -moz-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+/*NARIZ*/
+.nariz
+{
+    width:2rem;
+    height:4rem;
+    background-color: #F5ee31;
+    position: absolute;
+    top:11rem;
+    left:13rem;
+    border:0.5rem solid #000;
+    z-index: 10;
+    border-bottom: 5px solid transparent;
+    border-radius: 42.5%;
+    
+}
+/*BOCA*/
+.boca
+{
+    width: 20rem;
+    height: 8rem;
+    background-color: transparent;
+    position: absolute;
+    top:12rem;
+    left:5rem;
+    border-radius:50%;
+    z-index:10px;
+    border-bottom: 0.5rem solid #000;
+
+}
+.dientes
+{
+   position: relative; 
+   top:8rem;
+   left: 6.5rem;
+}
+.diente
+{
+    width:2rem;
+    height:2rem;
+    background-color: white;
+    border:5px solid #000;
+    display: inline-block;
+    z-index: 1rem;
+}
+.mejilla
+{
+    width: 2rem;
+    height: 1rem;
+    background: transparent;
+    position: absolute;
+    top:3rem;
+    border:3px solid #f1592a;
+    border-bottom:3px solid transparent;
+    border-radius:50% 50% 20% 20% ;
+    display: inline-block;
+
+}
+.mejilla.primera
+{
+    left: -1.2rem;
+}
+.mejilla.segunda
+{
+    left:18.7rem;
+}
+
+/*CAMISA*/
+.camisa
+{
+    width: 100%;
+    height:5rem;
+    position: absolute;
+    background-color: #fff;
+    bottom:5rem;
+    border-top:5px solid #000;
+    z-index: 10;
+    overflow: hidden;
+}
+.cuello
+{
+    width: 5rem;
+    height:3rem;
+    position: absolute;
+    background-color: white;
+    top:-2.5rem;
+    border:0.5rem solid #000;
+    -moz-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+.cuello.primero
+{
+    left: 6rem;
+}
+.cuello.segundo
+{
+    left: 18rem;
+    -moz-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+.cuello_corbata
+{
+    width: 4rem;
+    height:4rem;
+    background-color: #f00200;
+    border:0.5rem solid #000;
+    position: absolute;
+    left:12.5rem;
+    bottom:3rem;
+    z-index:50;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.cola_corbata
+{
+    width:5rem;
+    height: 5rem;
+    background-color: #f00200;
+    border: 0.5rem solid #000;
+    position: absolute ;
+    left:12rem;
+    bottom:0;
+    z-index:50;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    overflow: hidden;
+
+}
+/*PANTALONES*/
+.pantalones
+{
+    width:100%;
+    height:5rem;
+    background-color: #6a3d13;
+    position: absolute;
+    bottom:0%;
+    border-top:0.5rem solid #000;
+    z-index:10;
+}
+.cinturon
+{
+    width:4rem;
+    height:1.5rem;
+    position: absolute;
+    top:2rem;
+    background-color: #000;
+}
+.cinturon.primero
+{
+    left:2rem;
+}
+.cinturon.segundo
+{
+    left:8rem;
+}
+.cinturon.tercero
+{
+    right:8rem;
+}
+.cinturon.cuarto
+{
+    right:2rem;
+}
+/*POROS*/
+.poro
+{
+    background-color: #c0a402;
+    height:4rem;
+    width:4rem;
+    position: absolute;
+    border-radius: 50%;
+    z-index:1;
+}
+.poro.primero
+{
+    top:24rem;
+    left:3rem;
+    height:5rem;
+    width:5rem;
+}
+.poro.segundo
+{
+    top:8rem;
+    left:25rem;
+    height:2rem;
+    width:2rem;
+}
+.poro.tercero
+{
+    top:1rem;
+    left:26rem;
+    height:3rem;
+    width:3rem;
+}
+.poro.cuarto
+{
+    top:20rem;
+    left:24rem;
+    height:5rem;
+    width:5rem;
+}
+.poro.quinto
+{
+    top:0.5rem;
+    left:-1rem;
+    height:5rem;
+    width:5rem;
+}
+.poro.sexto
+{
+    top:10rem;
+    left:1.5rem;
+    height:2rem;
+    width:2rem;
+}
+.poro.septimo
+{
+    top:20rem;
+    left:0.4rem;
+    height:2rem;
+    width:2rem;
+}
+.poro.obtavo
+{
+    top:26rem;
+    left:22rem;
+    height:2rem;
+    width:2rem;
+}
